@@ -43,21 +43,21 @@
 
 @font-face {
   font-family: "Indie Flower";
-  font-style: cursive;
+  font-style:  italic ;
   font-weight: normal;
   src: url("./assets/fonts/IndieFlower-Regular.ttf");
 }
 
 @font-face {
   font-family: "Architects Daughter";
-  font-style: cursive;
+  font-style:  italic;
   font-weight: normal;
   src: url("./assets/fonts/ArchitectsDaughter-Regular.ttf");
 }
 
 @font-face {
   font-family: "Smooch";
-  font-style: cursive;
+  font-style:  italic ;
   font-weight: normal;
   src: url("./assets/fonts/Smooch-Regular.ttf");
 }
@@ -75,8 +75,8 @@
 
 body {
   margin: 0;
-  overflow-y: overlay;
-  font-family: "Poppins Regular";
+  overflow-y: initial;
+  font-family: "Poppins Regular", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -109,7 +109,7 @@ body ::-webkit-scrollbar-thumb {
   width: 160px;
   cursor: pointer;
   transition: 0.2s;
-  font-family: "Poppins SemiBold";
+  font-family: "Poppins SemiBold", cursive;
 }
 
 .btn:active {
@@ -135,12 +135,12 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .highlighted-btn {
-  color: var(--white);
+  color: #ffffff;
 
   font-size: 12px;
   background-color: #008d40;
   
-/* ////////////////////////////////// */
+
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
