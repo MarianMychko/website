@@ -9,7 +9,7 @@
   z-index: 100;
   cursor: pointer;
 }
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 414px) {
   .scroll-container {
     margin-bottom: 10px;
   }
