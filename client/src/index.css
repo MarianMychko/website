@@ -59,7 +59,7 @@
   font-family: "Smooch";
   font-style:  italic ;
   font-weight: normal;
-  src: url("./assets/fonts/Smooch-Regular.ttf");
+  src: local('Smooch'), url("./assets/fonts/Smooch-Regular.ttf");
 }
 
 @font-face {

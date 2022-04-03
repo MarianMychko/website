@@ -49,11 +49,11 @@ export default function Profile() {
                     1000,
                     'React Dev ',
                     1000,
-                    'Responsible Dev ',
+                    'Responsible ',
                     1000,
-                    'Team-friendly Dev ',
+                    'Team-friendly ',
                     1000,
-                    'Creative Dev ',
+                    'Creative ',
                     1000,
                   ]}
                   //😀 🤙 👊 v🖐 👌
