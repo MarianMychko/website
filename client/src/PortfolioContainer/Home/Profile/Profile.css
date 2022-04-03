@@ -54,7 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 0px 0px var(--white);
+  box-shadow: 0 1px 0px 0px #008d40;
   border-radius: 50%;
   height: 380px;
   width: 380px;
@@ -68,7 +68,7 @@
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 55%;
 }
 .profile-picture-background:hover {
   transform: scale(1.07);
