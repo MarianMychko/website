@@ -19,7 +19,7 @@ export default function AboutMe(props) {
       bullets: [
         "React development",
         "Interactive Front End as per the design",
-        "Redux for State Mnanagement",
+        "Redux for State Mananagement",
         "Ability to analyze and structure information",
         "Autonomy, responsibility and activism",
         "Explore different areas of technology development",
