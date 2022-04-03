@@ -21,9 +21,6 @@ export default function Profile() {
               <a href="https://www.instagram.com/0marcheg0/">
                 <i className="fa fa-instagram"></i>
               </a>
-{/*               <a href="#">
-                <i className="fa fa-youtube-square"></i>
-              </a> */}
               <a href="https://twitter.com/marian_mychko">
                 <i className="fa fa-twitter"></i>
               </a>

@@ -28,7 +28,7 @@
   font-family: "Smooch";
 }
 .primary-text {
-  color: (--white);
+  color: var(--white);
 }
 .highlighted-text {
   color: var(--green);
@@ -40,11 +40,12 @@
 }
 
 .profile-options .highlighted-btn {
-  margin: 0 0 0 28px;
+  margin: 0 0 0 30px;
+  border-radius: 12px solid white;
 }
 
 .profile-options .highlighted-btn:hover {
-  margin: 0 0 0 28px;
+  margin: 0 0 0 30px;
   background-color: cornsilk;
   color: #111;
 }
@@ -73,15 +74,19 @@
   transform: scale(1.07);
   transition: 1s ease-out;
 }
+.colz {
+  color: red;
+}
 .colz .colz-icon i {
   color: white;
   padding: 8px;
   padding-left: 0px;
 }
-.colz,
-.colz-icon i:hover {
+.colz .colz-icon i:hover {
   transform: scale(1.5);
 }
+
+
 
 @media screen and (max-width: 1110px) {
   .profile-picture {

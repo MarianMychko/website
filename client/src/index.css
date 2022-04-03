@@ -71,6 +71,7 @@
 
 * {
   outline: none;
+  border-radius: 2rem;
 }
 
 body {
@@ -117,14 +118,14 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .primary-btn {
-  color: var(--white);
+  color: white;
   border: 2px solid rgb(214, 255, 201);
   font-size: 12px;
   background-color: #0a6100;
 }
 @media only screen and (max-width: 414px) {
   .primary-btn {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
