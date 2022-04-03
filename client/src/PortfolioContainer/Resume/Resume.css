@@ -86,7 +86,7 @@
 }
 
 .selected-bullet {
-  color: var(--white);
+  color:white;
   width: 100%;
 }
 
